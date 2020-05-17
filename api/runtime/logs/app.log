@@ -1,0 +1,642 @@
+2019-09-03 17:41:26 [::1][-][-][error][yii\base\ErrorException:1] yii\base\ErrorException: Maximum execution time of 12000 seconds exceeded in E:\xampp_7\htdocs\ocas-daerah\api\modules\v1\controllers\SynchronizeController.php:59
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-09-03 11:24:45 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'serialnumber' => 'Q6CN5U2ZTQHKXCLGCHUE'
+    'uploadid' => '1'
+    'indexing' => '1'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8007'
+    'HTTP_CONNECTION' => 'close'
+    'CONTENT_LENGTH' => '55'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;E:\\xampp_7\\php;C:\\Ruby24-x64\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\MongoDB\\Server\\4.0\\bin\\;C:\\Ruby24-x64\\bin;C:\\Users\\Arip\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Arip\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Arip\\AppData\\Local\\atom\\bin;C:\\Users\\Arip\\AppData\\Roaming\\npm;C:\\Users\\Arip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.1.0h PHP/7.2.8 Server at localhost Port 8007</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.1.0h PHP/7.2.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8007'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp_7/htdocs/ocas-daerah/api/web/index.php'
+    'REMOTE_PORT' => '50315'
+    'REDIRECT_URL' => '/ocas-daerah/api/web/v1/synchronize'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ocas-daerah/api/web/v1/synchronize'
+    'SCRIPT_NAME' => '/ocas-daerah/api/web/index.php'
+    'PHP_SELF' => '/ocas-daerah/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567484676.231
+    'REQUEST_TIME' => 1567484676
+]
+2020-02-12 14:56:39 [::1][-][-][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'api\modules\v1\controllers\LoginController' in file: E:\xampp_7\htdocs\ocas-daerah/api/modules/v1/controllers/LoginController.php. Namespace missing? in E:\xampp_7\htdocs\ocas-daerah\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('api\\modules\\v1\\...')
+#1 [internal function]: spl_autoload_call('api\\modules\\v1\\...')
+#2 E:\xampp_7\htdocs\ocas-daerah\vendor\yiisoft\yii2\base\Module.php(637): class_exists('api\\modules\\v1\\...')
+#3 E:\xampp_7\htdocs\ocas-daerah\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('login')
+#4 E:\xampp_7\htdocs\ocas-daerah\vendor\yiisoft\yii2\base\Module.php(588): yii\base\Module->createController('create')
+#5 E:\xampp_7\htdocs\ocas-daerah\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('login/create')
+#6 E:\xampp_7\htdocs\ocas-daerah\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('v1/login/create', Array)
+#7 E:\xampp_7\htdocs\ocas-daerah\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 E:\xampp_7\htdocs\ocas-daerah\api\web\index.php(17): yii\base\Application->run()
+#9 {main}
+2020-02-12 14:56:35 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'noanggota' => '123'
+    'password' => '123'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8007'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '241'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_X_POSTMAN_INTERCEPTOR_ID' => 'a7837d8b-f3dd-bc2e-6e5b-528b4fe4e11b'
+    'HTTP_POSTMAN_TOKEN' => '352f8756-158c-0f4a-f4f3-feb86b258af1'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryVhuU8ramAnPHBUaN'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo'
+    'HTTP_SEC_FETCH_SITE' => 'cross-site'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'PATH' => 'C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;E:\\xampp_7\\php;C:\\Ruby24-x64\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\MongoDB\\Server\\4.0\\bin\\;E:\\flutter\\flutter\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\Arip\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Arip\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Arip\\AppData\\Local\\atom\\bin;C:\\Users\\Arip\\AppData\\Roaming\\npm;C:\\Users\\Arip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Arip\\AppData\\Local\\Microsoft\\WindowsApps;E:\\flutter\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.1.0h Server at localhost Port 8007</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.1.0h'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8007'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp_7/htdocs/ocas-daerah/api/web/index.php'
+    'REMOTE_PORT' => '58662'
+    'REDIRECT_URL' => '/ocas-daerah/api/web/v1/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ocas-daerah/api/web/v1/login'
+    'SCRIPT_NAME' => '/ocas-daerah/api/web/index.php'
+    'PHP_SELF' => '/ocas-daerah/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581494185.122
+    'REQUEST_TIME' => 1581494185
+]
+2020-05-16 20:56:24 [::1][-][-][error][Error] Error: Class 'api\modules\v1\controllers\NotFoundHttpException' not found in E:\xampp_7\htdocs\loginapp_advanced\api\modules\v1\controllers\LoginController.php:18
+Stack trace:
+#0 [internal function]: api\modules\v1\controllers\LoginController->actionIndex()
+#1 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#4 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('v1/login/index', Array)
+#5 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 E:\xampp_7\htdocs\loginapp_advanced\api\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2020-05-16 20:56:24 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '17b65vmad5nn0ma0dmar8ccv8e'
+    '_csrf-frontend' => '3022e178135a2d8a176a2ad9836101ddf2fe33ba10c34310f5e4f2775fd4746ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"0CoXbWGPf-cujb8oy1ltE_-P0tR5Z1-4\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '85ab9b35-43f8-48c9-983a-79b222005329'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '33'
+    'HTTP_COOKIE' => 'advanced-frontend=17b65vmad5nn0ma0dmar8ccv8e; _csrf-frontend=3022e178135a2d8a176a2ad9836101ddf2fe33ba10c34310f5e4f2775fd4746ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%220CoXbWGPf-cujb8oy1ltE_-P0tR5Z1-4%22%3B%7D'
+    'PATH' => 'E:\\app\\Arip\\product\\11.2.0\\client_1;E:\\app\\Arip\\product\\11.2.0\\client_1\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;E:\\xampp_7\\php;C:\\Ruby24-x64\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\MongoDB\\Server\\4.0\\bin\\;E:\\flutter\\flutter\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Go\\bin;C:\\Program Files\\nodejs\\;C:\\Ruby24-x64\\bin;C:\\Users\\Arip\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Arip\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Arip\\AppData\\Local\\atom\\bin;C:\\Users\\Arip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Arip\\AppData\\Local\\Microsoft\\WindowsApps;E:\\flutter\\bin;C:\\Users\\Arip\\Downloads\\platform-tools_r29.0.6-windows\\platform-tools;C:\\Users\\Arip\\go\\bin;C:\\Users\\Arip\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.1.0h Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.1.0h'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp_7/htdocs/loginapp_advanced/api/web/index.php'
+    'REMOTE_PORT' => '55810'
+    'REDIRECT_URL' => '/loginapp_advanced/api/web/v1/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/loginapp_advanced/api/web/v1/login'
+    'SCRIPT_NAME' => '/loginapp_advanced/api/web/index.php'
+    'PHP_SELF' => '/loginapp_advanced/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1589655384.66
+    'REQUEST_TIME' => 1589655384
+]
+2020-05-16 20:56:48 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: The requested page does not exist. in E:\xampp_7\htdocs\loginapp_advanced\api\modules\v1\controllers\LoginController.php:17
+Stack trace:
+#0 [internal function]: api\modules\v1\controllers\LoginController->actionIndex()
+#1 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#4 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('v1/login/index', Array)
+#5 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 E:\xampp_7\htdocs\loginapp_advanced\api\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2020-05-16 20:56:47 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '17b65vmad5nn0ma0dmar8ccv8e'
+    '_csrf-frontend' => '3022e178135a2d8a176a2ad9836101ddf2fe33ba10c34310f5e4f2775fd4746ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"0CoXbWGPf-cujb8oy1ltE_-P0tR5Z1-4\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '4adc5b24-648d-401f-b8ec-673fc2d4c604'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '33'
+    'HTTP_COOKIE' => 'advanced-frontend=17b65vmad5nn0ma0dmar8ccv8e; _csrf-frontend=3022e178135a2d8a176a2ad9836101ddf2fe33ba10c34310f5e4f2775fd4746ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%220CoXbWGPf-cujb8oy1ltE_-P0tR5Z1-4%22%3B%7D'
+    'PATH' => 'E:\\app\\Arip\\product\\11.2.0\\client_1;E:\\app\\Arip\\product\\11.2.0\\client_1\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;E:\\xampp_7\\php;C:\\Ruby24-x64\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\MongoDB\\Server\\4.0\\bin\\;E:\\flutter\\flutter\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Go\\bin;C:\\Program Files\\nodejs\\;C:\\Ruby24-x64\\bin;C:\\Users\\Arip\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Arip\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Arip\\AppData\\Local\\atom\\bin;C:\\Users\\Arip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Arip\\AppData\\Local\\Microsoft\\WindowsApps;E:\\flutter\\bin;C:\\Users\\Arip\\Downloads\\platform-tools_r29.0.6-windows\\platform-tools;C:\\Users\\Arip\\go\\bin;C:\\Users\\Arip\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.1.0h Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.1.0h'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp_7/htdocs/loginapp_advanced/api/web/index.php'
+    'REMOTE_PORT' => '55814'
+    'REDIRECT_URL' => '/loginapp_advanced/api/web/v1/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/loginapp_advanced/api/web/v1/login'
+    'SCRIPT_NAME' => '/loginapp_advanced/api/web/index.php'
+    'PHP_SELF' => '/loginapp_advanced/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1589655407.97
+    'REQUEST_TIME' => 1589655407
+]
+2020-05-16 21:39:07 [::1][-][-][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Invalid JSON data in request body: Syntax error. in E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\web\JsonParser.php:55
+Stack trace:
+#0 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\web\Request.php(573): yii\web\JsonParser->parse('email=ariefyudi...', 'application/jso...')
+#1 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\web\Request.php(638): yii\web\Request->getBodyParams()
+#2 E:\xampp_7\htdocs\loginapp_advanced\api\modules\v1\controllers\LoginController.php(23): yii\web\Request->post()
+#3 [internal function]: api\modules\v1\controllers\LoginController->actionCreate()
+#4 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#7 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('v1/login/create', Array)
+#8 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\xampp_7\htdocs\loginapp_advanced\api\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2020-05-16 21:39:06 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '59'
+    'PATH' => 'E:\\app\\Arip\\product\\11.2.0\\client_1;E:\\app\\Arip\\product\\11.2.0\\client_1\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;E:\\xampp_7\\php;C:\\Ruby24-x64\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\MongoDB\\Server\\4.0\\bin\\;E:\\flutter\\flutter\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Go\\bin;C:\\Program Files\\nodejs\\;C:\\Ruby24-x64\\bin;C:\\Users\\Arip\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Arip\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Arip\\AppData\\Local\\atom\\bin;C:\\Users\\Arip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Arip\\AppData\\Local\\Microsoft\\WindowsApps;E:\\flutter\\bin;C:\\Users\\Arip\\Downloads\\platform-tools_r29.0.6-windows\\platform-tools;C:\\Users\\Arip\\go\\bin;C:\\Users\\Arip\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.1.0h Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.1.0h'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp_7/htdocs/loginapp_advanced/api/web/index.php'
+    'REMOTE_PORT' => '56984'
+    'REDIRECT_URL' => '/loginapp_advanced/api/web/v1/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/loginapp_advanced/api/web/v1/login'
+    'SCRIPT_NAME' => '/loginapp_advanced/api/web/index.php'
+    'PHP_SELF' => '/loginapp_advanced/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1589657946.703
+    'REQUEST_TIME' => 1589657946
+]
+2020-05-16 21:39:44 [::1][-][-][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Invalid JSON data in request body: Syntax error. in E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\web\JsonParser.php:55
+Stack trace:
+#0 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\web\Request.php(573): yii\web\JsonParser->parse('email=ariefyudi...', 'application/jso...')
+#1 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\web\Request.php(638): yii\web\Request->getBodyParams()
+#2 E:\xampp_7\htdocs\loginapp_advanced\api\modules\v1\controllers\LoginController.php(23): yii\web\Request->post()
+#3 [internal function]: api\modules\v1\controllers\LoginController->actionCreate()
+#4 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#7 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('v1/login/create', Array)
+#8 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\xampp_7\htdocs\loginapp_advanced\api\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2020-05-16 21:39:44 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '59'
+    'PATH' => 'E:\\app\\Arip\\product\\11.2.0\\client_1;E:\\app\\Arip\\product\\11.2.0\\client_1\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;E:\\xampp_7\\php;C:\\Ruby24-x64\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\MongoDB\\Server\\4.0\\bin\\;E:\\flutter\\flutter\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Go\\bin;C:\\Program Files\\nodejs\\;C:\\Ruby24-x64\\bin;C:\\Users\\Arip\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Arip\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Arip\\AppData\\Local\\atom\\bin;C:\\Users\\Arip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Arip\\AppData\\Local\\Microsoft\\WindowsApps;E:\\flutter\\bin;C:\\Users\\Arip\\Downloads\\platform-tools_r29.0.6-windows\\platform-tools;C:\\Users\\Arip\\go\\bin;C:\\Users\\Arip\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.1.0h Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.1.0h'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp_7/htdocs/loginapp_advanced/api/web/index.php'
+    'REMOTE_PORT' => '56991'
+    'REDIRECT_URL' => '/loginapp_advanced/api/web/v1/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/loginapp_advanced/api/web/v1/login'
+    'SCRIPT_NAME' => '/loginapp_advanced/api/web/index.php'
+    'PHP_SELF' => '/loginapp_advanced/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1589657984.282
+    'REQUEST_TIME' => 1589657984
+]
+2020-05-16 21:57:07 [::1][-][-][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: E:\xampp_7\htdocs\loginapp_advanced\api\modules\v1\views\login\login.php in E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('E:\\xampp_7\\htdo...', Array, Object(api\modules\v1\controllers\LoginController))
+#1 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('login', Array, Object(api\modules\v1\controllers\LoginController))
+#2 E:\xampp_7\htdocs\loginapp_advanced\api\modules\v1\controllers\LoginController.php(47): yii\base\Controller->render('login', Array)
+#3 [internal function]: api\modules\v1\controllers\LoginController->actionCreate()
+#4 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#7 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('v1/login/create', Array)
+#8 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\xampp_7\htdocs\loginapp_advanced\api\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2020-05-16 21:57:07 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'mobilenumber' => '08988122591'
+    'password' => 'susahkan19'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'E:\\app\\Arip\\product\\11.2.0\\client_1;E:\\app\\Arip\\product\\11.2.0\\client_1\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;E:\\xampp_7\\php;C:\\Ruby24-x64\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\MongoDB\\Server\\4.0\\bin\\;E:\\flutter\\flutter\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Go\\bin;C:\\Program Files\\nodejs\\;C:\\Ruby24-x64\\bin;C:\\Users\\Arip\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Arip\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Arip\\AppData\\Local\\atom\\bin;C:\\Users\\Arip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Arip\\AppData\\Local\\Microsoft\\WindowsApps;E:\\flutter\\bin;C:\\Users\\Arip\\Downloads\\platform-tools_r29.0.6-windows\\platform-tools;C:\\Users\\Arip\\go\\bin;C:\\Users\\Arip\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.1.0h Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.1.0h'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp_7/htdocs/loginapp_advanced/api/web/index.php'
+    'REMOTE_PORT' => '57290'
+    'REDIRECT_URL' => '/loginapp_advanced/api/web/v1/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/loginapp_advanced/api/web/v1/login'
+    'SCRIPT_NAME' => '/loginapp_advanced/api/web/index.php'
+    'PHP_SELF' => '/loginapp_advanced/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1589659027.316
+    'REQUEST_TIME' => 1589659027
+]
+2020-05-16 21:58:10 [::1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Creating default object from empty value in E:\xampp_7\htdocs\loginapp_advanced\api\modules\v1\controllers\LoginController.php:44
+Stack trace:
+#0 E:\xampp_7\htdocs\loginapp_advanced\api\modules\v1\controllers\LoginController.php(44): yii\base\ErrorHandler->handleError(2, 'Creating defaul...', 'E:\\xampp_7\\htdo...', 44, Array)
+#1 [internal function]: api\modules\v1\controllers\LoginController->actionCreate()
+#2 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#5 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('v1/login/create', Array)
+#6 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\xampp_7\htdocs\loginapp_advanced\api\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2020-05-16 21:58:10 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'mobilenumber' => '08988122591'
+    'password' => 'susahkan19'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'E:\\app\\Arip\\product\\11.2.0\\client_1;E:\\app\\Arip\\product\\11.2.0\\client_1\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;E:\\xampp_7\\php;C:\\Ruby24-x64\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\MongoDB\\Server\\4.0\\bin\\;E:\\flutter\\flutter\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Go\\bin;C:\\Program Files\\nodejs\\;C:\\Ruby24-x64\\bin;C:\\Users\\Arip\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Arip\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Arip\\AppData\\Local\\atom\\bin;C:\\Users\\Arip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Arip\\AppData\\Local\\Microsoft\\WindowsApps;E:\\flutter\\bin;C:\\Users\\Arip\\Downloads\\platform-tools_r29.0.6-windows\\platform-tools;C:\\Users\\Arip\\go\\bin;C:\\Users\\Arip\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.1.0h Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.1.0h'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp_7/htdocs/loginapp_advanced/api/web/index.php'
+    'REMOTE_PORT' => '57293'
+    'REDIRECT_URL' => '/loginapp_advanced/api/web/v1/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/loginapp_advanced/api/web/v1/login'
+    'SCRIPT_NAME' => '/loginapp_advanced/api/web/index.php'
+    'PHP_SELF' => '/loginapp_advanced/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1589659090.751
+    'REQUEST_TIME' => 1589659090
+]
+2020-05-17 17:25:43 [::1][-][-][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Invalid JSON data in request body: Syntax error. in E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\web\JsonParser.php:55
+Stack trace:
+#0 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\web\Request.php(573): yii\web\JsonParser->parse('email=ariefyudi...', 'application/jso...')
+#1 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\web\Request.php(638): yii\web\Request->getBodyParams()
+#2 E:\xampp_7\htdocs\loginapp_advanced\api\modules\v1\controllers\LoginController.php(23): yii\web\Request->post()
+#3 [internal function]: api\modules\v1\controllers\LoginController->actionCreate()
+#4 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#7 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('v1/login/create', Array)
+#8 E:\xampp_7\htdocs\loginapp_advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\xampp_7\htdocs\loginapp_advanced\api\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2020-05-17 17:25:42 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/xampp_7/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp_7/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ACCEPT' => '*/*'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '59'
+    'PATH' => 'E:\\app\\Arip\\product\\11.2.0\\client_1;E:\\app\\Arip\\product\\11.2.0\\client_1\\bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;E:\\xampp_7\\php;C:\\Ruby24-x64\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\MongoDB\\Server\\4.0\\bin\\;E:\\flutter\\flutter\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Go\\bin;C:\\Program Files\\nodejs\\;C:\\Ruby24-x64\\bin;C:\\Users\\Arip\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Arip\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Arip\\AppData\\Local\\atom\\bin;C:\\Users\\Arip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Arip\\AppData\\Local\\Microsoft\\WindowsApps;E:\\flutter\\bin;C:\\Users\\Arip\\Downloads\\platform-tools_r29.0.6-windows\\platform-tools;C:\\Users\\Arip\\go\\bin;C:\\Users\\Arip\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.34 (Win32) OpenSSL/1.1.0h Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Win32) OpenSSL/1.1.0h'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp_7/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp_7/htdocs/loginapp_advanced/api/web/index.php'
+    'REMOTE_PORT' => '59466'
+    'REDIRECT_URL' => '/loginapp_advanced/api/web/v1/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/loginapp_advanced/api/web/v1/login'
+    'SCRIPT_NAME' => '/loginapp_advanced/api/web/index.php'
+    'PHP_SELF' => '/loginapp_advanced/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1589729142.948
+    'REQUEST_TIME' => 1589729142
+]
